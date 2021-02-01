@@ -1,15 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(©òâ–8²Ú¿õ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(˜á˜¨8˜’¾õ.
-K
-java:S1128".Remove this unused import 'model.RegistreUFC'.(–ÙÀŸ8ê»”õ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¾àßƒ8ó¸Áõ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜æÜÎøÿÿÿÿ8Å ¼õ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¾Šùú8Ÿüäõ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(©ÂÓ8Ğ†Ùõ.
-U	java:S1062"9Replace this use of System.out or System.err by a logger.(îšµ¾8Çğõ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Î¢ûÌ8ı¢çõ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÊÊÇ«8—“Öõ.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ¡÷¨8‹…İõ.
-F
-java:S1128"*Remove this unused import 'model.OpenCSV'.(¤×¾i8üÁÉÉõ.
