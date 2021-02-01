@@ -36,7 +36,7 @@ public class OpenCSV {
                 .withType(NomColumnesUFC.class)
                 .withIgnoreLeadingWhiteSpace(true)
                 .build();
-        System.out.println("entro");
+
 
         return nomColumnesUFCS;
     }

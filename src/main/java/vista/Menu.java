@@ -27,6 +27,7 @@ public class Menu {
             System.out.println("5-Veure lluitador amb menys lluites ");
             System.out.println("6-Veure un event segons la data introduida format exemple (Apr 7, 2018)");
             System.out.println("7-Events amb el resultat d'una categoría de pes en concret");
+            System.out.println("8-Soritr");
             System.out.println();
 
             opcion = sc.nextInt();
@@ -51,6 +52,9 @@ public class Menu {
                     break;
                 case 7:
                     registreUFCControl.veureContingutComplet();
+                    break;
+                case 8:
+                    System.out.println("Adéu");
                     break;
                 default:
                     System.out.println("Opció incorrecta");
