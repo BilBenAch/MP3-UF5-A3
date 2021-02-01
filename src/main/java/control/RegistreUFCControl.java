@@ -89,7 +89,7 @@ public class RegistreUFCControl {
                     stream().filter(nomColumnesUFC -> nomColumnesUFC.getWeight().
                     contains(finalValor))
                     .map(fighter -> "W " + fighter
-                            .getFighter1() + "VS " + "L " + fighter
+                            .getFighter1() + " VS " + "L " + fighter
                             .getFighter2() + " Resultat ----> " + fighter.getMethod())
                     .sorted()
                     .distinct()

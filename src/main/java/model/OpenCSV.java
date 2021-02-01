@@ -7,24 +7,20 @@ import com.opencsv.bean.CsvToBeanBuilder;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
 
 public class OpenCSV {
-    CsvToBean<NomColumnesUFC> nomColumnesUFCS;
+    private final List<NomColumnesUFC> fighters;
     static String fileName = "c:\\Users\\bilal\\Desktop\\allUFCfightsclean.csv";
 
-
     public OpenCSV() {
-        this.nomColumnesUFCS = LeerCsv();
-
+        this.fighters = LeerCsv();
     }
 
-
-    public CsvToBean<NomColumnesUFC> LeerCsv() {
-        BufferedReader in = null;
+    public List<NomColumnesUFC> LeerCsv() {
+        BufferedReader in;
         CSVReader reader = null;
         try {
             in = new BufferedReader(new FileReader(fileName));
@@ -32,18 +28,15 @@ public class OpenCSV {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        CsvToBean<NomColumnesUFC> nomColumnesUFCS = new CsvToBeanBuilder(reader)
+        return (List<NomColumnesUFC>) new CsvToBeanBuilder(reader)
                 .withType(NomColumnesUFC.class)
                 .withIgnoreLeadingWhiteSpace(true)
-                .build();
-
-
-        return nomColumnesUFCS;
+                .build()
+                .stream()
+                .collect(Collectors.toList());
     }
 
     public List<NomColumnesUFC> lista() {
-
-        return nomColumnesUFCS.stream().collect(Collectors.toList());
+        return fighters;
     }
 }
-
