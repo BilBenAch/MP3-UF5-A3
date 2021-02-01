@@ -1,0 +1,19 @@
+
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ı¼€øÿÿÿÿ8â†Úõ.
+L
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8°­™Ÿõ.
+Q
+java:S3740'"/Provide the parametrized type for this generic.(ÃĞÿ¹ûÿÿÿÿ8ôŠ±—õ.
+b
+java:S1128"@Remove this unused import 'com.opencsv.exceptions.CsvException'.(¶œãúúÿÿÿÿ8–Ïõ.
+T
+java:S1128"7Remove this unused import 'control.RegistreUFCControl'.(çôÒ 8Ã’ÂÉõ.
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8’·“Ÿõ.
+‰
+java:S1488'"gImmediately return this expression instead of assigning it to the temporary variable "nomColumnesUFCS".(ÃĞÿ¹ûÿÿÿÿ8Ã’ÂÉõ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥¶ûš8ôŠ±—õ.
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(É—¶§8â†Úõ.
+e
+java:S1117'"CRename "nomColumnesUFCS" which hides the field declared at line 19.(ÃĞÿ¹ûÿÿÿÿ8Ãæ£õ.
