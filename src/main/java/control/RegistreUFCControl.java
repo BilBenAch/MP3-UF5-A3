@@ -162,7 +162,7 @@ public class RegistreUFCControl {
 
                 .map(Map.Entry::getKey).orElse(null);
 
-        System.out.println("El lluitador que ha lluitat mes a l'UFC es " + menysVegades);
+        System.out.println("El lluitador que ha lluitat menys a l'UFC es " + menysVegades);
     }
 
     public void veureEventsSegonsData(){
