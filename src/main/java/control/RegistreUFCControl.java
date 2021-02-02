@@ -117,7 +117,6 @@ public class RegistreUFCControl {
         nomlluitadors.forEach(System.out::println);
 
 
-
     }
 
 
@@ -150,7 +149,7 @@ public class RegistreUFCControl {
 
     }
 
-    public void menysVegades(){
+    public void menysVegades() {
 
         String menysVegades = openCSV.lista().stream()
 
@@ -165,7 +164,7 @@ public class RegistreUFCControl {
         System.out.println("El lluitador que ha lluitat menys a l'UFC es " + menysVegades);
     }
 
-    public void veureEventsSegonsData(){
+    public void veureEventsSegonsData() {
         System.out.println("Introdueix la data de l'event format (Apr 7, 2018)");
         String data = sc.nextLine();
 
@@ -179,7 +178,7 @@ public class RegistreUFCControl {
 
     }
 
-    public void veureContingutComplet(){
+    public void veureContingutComplet() {
 
         nomlluitadors = openCSV.lista()
                 .stream()

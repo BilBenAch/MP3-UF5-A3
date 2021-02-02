@@ -26,7 +26,7 @@ public class Menu {
             System.out.println("4-Lluitador amb més lluites");
             System.out.println("5-Veure lluitador amb menys lluites ");
             System.out.println("6-Veure un event segons la data introduida format exemple (Apr 7, 2018)");
-            System.out.println("7-Events amb el resultat d'una categoría de pes en concret");
+            System.out.println("7-Veure totes les dades sense filtrar");
             System.out.println("8-Soritr");
             System.out.println();
 
